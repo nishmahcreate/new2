@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 73%;
+    margin: auto;
+   
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    
+}
+.nav{
+    font-family: sans-serif, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-bottom: 1rem
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+  display: flex;
+  align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px ;
+    font-size:19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    text-align: right;
+    padding: 8px;
+    margin-right:25px ;
+    color: rgb(241, 238, 238);
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.Zomato-logo{
+    margin-top: 10px;
+    width: 285px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 193px;
+}
+.header-body-content{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.header-body-section-discover{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+.search-container{
+    background-color:#fff ;
+    width: 100%;
+    height: 53px;
+    max-width: 765px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+} 
+.text{
+    border: none;
+    padding: 5 10px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.locationmap{
+    color: rgb(235, 125, 125);
+    font-size: 18px;
+}
+.upicon{
+    color: rgb(84, 83, 83);
+   
+}
+.detectionlocation{
+    border: none;
+    
+}
+.line{
+    font-size: x-large;
+    color: rgb(183, 180, 180);
+    width: 16px;
+}
+.search-items{
+    color: rgb(162, 159, 159);
+}
+.search-items input{
+    width:400px;
+    max-width:100%;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+}
+.section-1{
+    margin-top: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    overflow: hidden;
+    height: 240px;
+    border-radius: 13px;
+    border: 0.5px solid rgb(227, 224, 224);
+}
+.feature-image{
+    height:157px;
+    overflow: hidden;
+    width: 553px;
+    object-fit: cover;
+}
+.feature-image img{
+    width: 100%;
+    background-position: 100px;
+}
+.features h3,
+.features p{
+    color: rgb(50, 50, 50);
+    padding-left: 20px; 
+    line-height: 10px;
+    font-weight: 500;
+    font-family:'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.features:hover{
+    transition: transform 0.7s;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.section-2{
+    padding-left: 205px;
+   
+}
+.section-2 h1{
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: 100;
+    color: rgb(48, 47, 47);
+}
+.section-2 h3{
+    font-size: 20px;
+    line-height: 1px;
+    font-weight: 100;
+    color: rgb(45, 44, 44);
+}
+.localitycontainer{
+    padding-bottom: 120px;
+}
+.localities-card{
+    color: rgb(107, 104, 104);
+    font-weight: 100;
+}
+.localities-list{
+    padding-left: 15px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 360px;
+    align-items: center;
+    border: 1px solid rgb(227, 224, 224);
+    border-radius: 7px;
+   
+}
+.section-3{
+    padding-bottom: 90px;
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 249, 252);
+    justify-content: center;
+}
+.zomato-app-details h1{ 
+   margin-top: 70px;
+    font-size: 45px;
+    font-weight: 100;
+}
+.zomato-app-details p{
+    width: 550px;
+    font-size: 20px;
+    color: rgb(79, 78, 78);
+}
+.zomato-app-image{
+    margin-top: 100px;
+}
+.zomato-app-input{
+    display: flex;
+    margin: 5px 0px;
+}
+.inputcontainer-zomato{
+    height: 50px;
+    width: 300px;
+    padding-right:10px ;
+}
+.radio-btn{
+    padding-top: 15px;
+    cursor: pointer;
+    color: rgb(40, 40, 40);
+    margin: 0px 5px 15px 0px
+}
+.input-box{
+    outline: none;
+    border: 1px solid rgb(189, 188, 188);
+    font-size: 18px;
+    border-radius: 0.5rem;
+    color: rgb(186, 182, 182);
+}
+.zomato-app-btn{
+    width: 150px;
+    color: #fff;   
+    background: rgb(239, 79, 95);
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0.5rem;
+}
+.inputcontainer-zomato select,
+.inputcontainer-zomato input{
+    height: 100%;
+}
+.inputcontainer-zomato input{
+    width: 100%;
+    max-width: 300px;
+}
+.section-4 h1{
+   font-size: 33px;
+   color: rgb(57, 57, 57);
+   font-weight: 100;
+}
+.explore-container{
+    padding-left: 200px;
+    padding-right: 300px;
+}
+.explore-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;  
+    color: rgb(0, 0, 0);
+}
+.explore-list{
+    height: 73px;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 10px;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+.restaurant-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;  
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 10px;
+    padding:0px 50px ;
+    margin-bottom: 20px;
+   
+}
+.deliver-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;  
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 10px;
+    padding:0px 50px;
+    margin-bottom: 100px;
+}
+.footerOptionSection{
+    display: flex;
+    width: 110px;
+    height: 35px;
+    border: 1px solid #a9a9a9; 
+    border-radius: 6px;
+    padding-top: 7px;
+}
+.footerOptionSection:first-child{
+    margin-left: 800px;
+    margin-right: 30px;
+}
+.footerOptionSection select{
+    width: 90px;
+    height: 20px;
+    color: #2c2c2c;
+    border: none;
+    font-size: 17px;
+}
+
+.flagImage{
+    width:35px;
+    height: 15px;
+}
+.flagImage img{
+    width:100%;
+    height: 100%;
+}
+.footerlanguagecountry{
+    display: flex;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 140px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-top: 20px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+}
+.downloadapp{
+    width:130px;
+}
+.footer-menu ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-menu a{
+   color: #6c6b6b;
+   line-height: 2;
+   font-weight: 100;
+   text-decoration: none;
+}
+.horizontal-line{
+   padding: 20px;
+}
